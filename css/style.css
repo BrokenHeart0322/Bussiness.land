@@ -1,0 +1,38 @@
+*{
+    margin: 0 auto;
+    box-sizing: content-box;
+    font: 1em sans-serif;
+}
+body{ 
+    background-image: url("../images/Power__plant1__bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div{
+    width: 35%;
+    background-color: aliceblue;
+    margin-top: 5rem;
+    padding: 3rem 0;
+    border-radius: 5px;
+}
+form{
+    display: flex;
+    flex-direction: column; 
+    justify-content: start;
+    gap: 20px;
+    
+}
+h1{
+    font-size: 35px; font-weight: 600;
+    color: green;
+}
+h4{
+    color:grey;
+}
+button{
+    width: 20%; height: 2rem;
+   background-color: blueviolet; 
+   color: whitesmoke;
+   border: none;
+   border-radius: 16px;
+}
